@@ -10,7 +10,7 @@ Installation
 Use composer to manage your dependencies and download php-apple-signin:
 
 ```bash
-composer require griffinledingham/php-apple-signin
+composer require jsoprano/php-apple-signin
 ```
 
 Example
