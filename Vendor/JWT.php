@@ -145,7 +145,7 @@ class JWT
      * @param string $jwt
      * @return mixed
      */
-    public static function getPublicKeyKid(string $jwt)
+    public static function getPublicKeyKid($jwt)
     {
         $tks = explode('.', $jwt);
         if (count($tks) != 3) {
